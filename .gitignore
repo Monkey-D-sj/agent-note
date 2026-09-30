@@ -1,0 +1,21 @@
+# --- 密钥：绝不提交 ---
+.env
+.env.*
+!.env.example
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+
+# --- 虚拟环境 ---
+.venv/
+venv/
+
+# --- IDE ---
+.idea/
+.vscode/
+
+# 注意：uv.lock 要提交（它锁定依赖版本），不要加进来
